@@ -53,29 +53,6 @@ Flipkart product dataset — 5,200+ records, 14 columns
 - Databricks
 - Spark SQL
 
-## Steps Involved
-
-### 1. Data Ingestion
-- Loaded raw CSV data into PySpark DataFrame using SparkSession
-- Inspected schema and statistical summary across 14 columns
-
-### 2. Data Cleaning
-- Detected missing values across 3+ columns using isNull()
-- Applied dropna() and fillna() to ensure 100% data consistency
-
-### 3. Data Transformation
-- Filtered high-rated products (Rating > 4)
-- Calculated average ratings grouped by 3 product categories
-- Aggregated revenue metrics using groupBy() and agg()
-
-### 4. Data Storage
-- Saved cleaned and transformed output as a structured table
-- Validated final output using Spark SQL queries
-
-## Key Insights
-- Identified top-rated products across Men, Women categories
-- Analysed pricing distribution across 5,200+ records
-- Ensured analytics-ready data output for business consumption
 
 ## Dataset
 Flipkart product dataset — 5,200+ records, 14 columns
